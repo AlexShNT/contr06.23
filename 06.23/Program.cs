@@ -77,20 +77,22 @@ string[] GenNewArr(string[] arrT)
 
 void TestPrg()
 {
-string[] t1 = new string[] {"Hello", "2", "world", ":-)"};
-string[] tt = GenNewArr(t1);
-PrintArr(t1);
-PrintArr(tt);
-Console.WriteLine();
-string[] t2 = new string[] {"1234", "1567", "-2", "computer science"};
-tt = GenNewArr(t2);
-PrintArr(t2);
-PrintArr(tt);
-Console.WriteLine();
-string[] t3 = new string[] {"Russia", "Denmark", "Kazan"};
-tt = GenNewArr(t3);
-PrintArr(t3);
-PrintArr(tt);
+    string[] t1 = new string[] {"Hello", "2", "world", ":-)"};
+    string[] tt = GenNewArr(t1);
+    PrintArr(t1);
+    PrintArr(tt);
+    Console.WriteLine();
+
+    string[] t2 = new string[] {"1234", "1567", "-2", "computer science"};
+    tt = GenNewArr(t2);
+    PrintArr(t2);
+    PrintArr(tt);
+    Console.WriteLine();
+
+    string[] t3 = new string[] {"Russia", "Denmark", "Kazan"};
+    tt = GenNewArr(t3);
+    PrintArr(t3);
+    PrintArr(tt);
 }
 
 void RunPrg()
@@ -100,10 +102,9 @@ void RunPrg()
 
     string[] tt = FillArr(arrLen);
 
-
     PrintArr(GenNewArr(tt));
 }
 
-// TestPrg();
+TestPrg();
 
-RunPrg();
+// RunPrg();
